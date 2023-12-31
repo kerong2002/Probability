@@ -1,16 +1,9 @@
 # Probability
-<style>
-.left-align {
-    text-align: left;
-}
-</style>
-
-<span class="left-align">$$P_r(X = x) = \binom{n}{x}p^x(1-p)^{n-x}$$</span>
 
 ## Discrete Distribution
 ### Binominal Distribution
 
-$$P_r(X = x) = \binom{n}{x}p^x(1-p)^{n-x}$$
+$$\Large P_r(X = x) = \binom{n}{x}p^x(1-p)^{n-x}$$
 $$\mu = np, \ \ \sigma^2 = np(1-p)$$
 
 ### Hypergeometric Distribution
