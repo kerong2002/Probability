@@ -1,6 +1,5 @@
 # Probability
 
-$$\mu = , \ \ \sigma^2 =$$
 ## Discrete Distribution
 ### Binominal Distribution
 
