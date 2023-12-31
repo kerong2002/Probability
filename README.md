@@ -32,7 +32,7 @@ $$\Large \mu = \frac{B+A}{2}, \ \ \sigma^2 =\frac{(B-A)^2}{12}$$
 
 ### Gaussian Distribution
 $$\Large f(x) = \frac{1}{\sqrt{2 \pi}\sigma}e^{-\frac{(x-\mu)^2}{2\sigma^2}}, -\infty \leq x \leq \infty$$
-$$E(x) = \mu, \ \ Var(x) = \sigma^2$$
+$$\Large E(x) = \mu, \ \ Var(x) = \sigma^2$$
 
 ### Standard Gaussian Distribution
 $$\Large X\sim B(\mu, \sigma^2) \rightarrow Z\sim B(0, 1)$$
@@ -46,13 +46,13 @@ $$\Large f_T(t) = \lambda e^{-\lambda t}$$
 $$\Large \mu = \frac{1}{\lambda}, \ \ \sigma^2 =\frac{1}{\lambda^2}$$
 
 ### Gamma Distribution
-$$ \Gamma(\alpha) = \int_{0}^{\infty}x^{\alpha - 1}e^{-x}dx, \ \ \alpha > 0 , \ \ \Gamma(1) = 1 , \ \ \Gamma(\frac{1}{2}) = \pi $$
+$$\Large \Gamma(\alpha) = \int_{0}^{\infty}x^{\alpha - 1}e^{-x}dx, \ \ \alpha > 0 , \ \ \Gamma(1) = 1 , \ \ \Gamma(\frac{1}{2}) = \pi $$
 
 $$\Large f_{T \alpha}(t) = \frac{1}{\beta^{\alpha}\Gamma(\alpha)}t^{\alpha - 1}{e^{\frac{-t}{\beta}}} $$
 $$\Large \mu = \alpha \beta, \ \ \sigma^2 =\alpha \beta^2$$
 
 ### Chi-square Distribution
-$$ \alpha = \frac{v}{2}, \ \  \beta = 2$$
+$$\Large \alpha = \frac{v}{2}, \ \  \beta = 2$$
 $$\Large f(x) = \frac{1}{2^{\frac{v}{2}}\Gamma(\frac{v}{2})}x^{\frac{v}{2} - 1}{e^{\frac{-x}{2}}} $$
 $$\Large \mu = v, \ \ \sigma^2 = 2v$$
 
