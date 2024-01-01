@@ -145,3 +145,38 @@ $$\large = \frac{e^{-(\mu_1 + \mu_2)}}{y_1!}\sum_{x_2=0}^{y_1}\binom{y_1}{x_2}\m
 $$\large =  \frac{e^{-(\mu_1 + \mu_2)}(\mu_1 + \mu_2)^{y_1}}{y_1!}$$
 
 $$\large Y_1\sim Poisson(\mu = \mu_1+\mu_2)$$
+
+###  Continuous probability distribution
+$$\large g(y) = f[w(y)]|J|$$
+
+$$\large J = w'(y) \rightarrow Jacobian$$
+
+### Continuous joint probability distribution
+$$\large g(y_1, y_2) = f[w_1(y_1,y_2),w_2(y_1,y_2)]|J|$$
+
+$$\large J = \begin{vmatrix}
+\frac{\partial x_1}{\partial y_1} & \frac{\partial x_1}{\partial y_2} \\ 
+\frac{\partial x_2}{\partial y_1} & \frac{\partial x_2}{\partial y_2}
+\end{vmatrix}$$
+
+### Example:
+
+![image](https://hackmd.io/_uploads/H1BJ2Ck_T.png)
+
+$$\large f_x(x)\ \ is\ \ given\ \ -1 < x < 1, \ \ Let \ \ Y = X^2, \ \ f_Y(y) = ?$$
+
+$$\large 1.\rightarrow (-1 < x < 0) ,\ \ f_Y(y) = f_X(-\sqrt{y})|(-\sqrt{y})'|$$
+
+$$\large 2.\rightarrow (0 < x < 1) ,\ \ f_Y(y) = f_X(\sqrt{y})|(\sqrt{y})'|\ \ \ \ $$
+
+$$\large f_Y(y) = \frac{1}{2\sqrt{y}} [f_X(\sqrt{y}) + f_X(-\sqrt{y})]$$
+
+#### Extension
+![image](https://hackmd.io/_uploads/rk8KAAyup.png)
+
+$$\large f_x(x)\ \ is\ \ given\ \ -1 < x < 2, \ \ Let \ \ Y = X^2, \ \ f_Y(y) = ?$$
+
+$$\large f_Y(y) = \left\{\begin{matrix}
+\frac{1}{2\sqrt{y}} [f_X(\sqrt{y}) + f_X(-\sqrt{y})] && 0 < y < 1\\
+\frac{1}{2\sqrt{y}} f_X(\sqrt{y}) && 1<y<4
+\end{matrix}\right.$$
