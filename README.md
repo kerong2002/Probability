@@ -44,7 +44,7 @@ $$\Large E(x) = \mu, \ \ Var(x) = \sigma^2$$
 ### Standard Gaussian Distribution
 $$\Large X\sim B(\mu, \sigma^2) \rightarrow Z\sim B(0, 1)$$
 
-$$\Large Z = \frac{x-\mu}{\sigma} $$
+$$\Large Z = \frac{x-\mu}{\sigma} \rightarrow \Large f(x) = \frac{1}{\sqrt{2 \pi}}e^{-\frac{1}{2}z^2}$$
 #### Binominal Distribution to Standard Gaussian Distribution
 
 $$\Large \mu = np, \ \ \sigma^2=npq, \ \ q = (1-p)$$
@@ -185,3 +185,11 @@ $$
 \right.
 $$
 
+## Moment-Generating Functions
+$$\large \mu_r' = E(X^r) = \left\{
+\begin{matrix}
+\sum_{x} X^r f(x) \ \ \ \ & \text{if} \ X \ is\ discrete  \\
+\int_{-\infty}^{\infty} X^r f(x)dx  & \text{if}\ X \ is\ continuous
+\end{matrix}
+\right.
+$$
