@@ -109,7 +109,7 @@ $$\Large g(y)=f[w(y)]$$
 $$\Large g(y_1,y_2) = f[w_1(y_1, y_2), w_2(y_1, y_2)]$$
 
 ### Example:
-$$\Large X_1\sim Poisson(\mu_1), \ \ X_2 \sim Poisson(\mu_2), \ \ X_1 \& X_2 \ \ are \ \ independent$$
+$$\Large X_1\sim Poisson(\mu_1), \ \ X_2 \sim Poisson(\mu_2), \ \ X_1 && X_2 \ \ are \ \ independent$$
 
 $$\Large  Find\ \ the\ \ distribution \rightarrow \ \ Y_1 = X_1 + X2$$
 #### Use Transformations of Variables
