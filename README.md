@@ -362,25 +362,6 @@ $$
 \right.
 $$
 
-## Moment-Generating Functions
-$$\large \mu_r' = E(X^r) = \left\{
-\begin{matrix}
-\sum_{x} X^r f(x) \ \ \ \ & \text{if} \ X \ is\ discrete  \\
-\int_{-\infty}^{\infty} X^r f(x)dx  & \text{if}\ X \ is\ continuous
-\end{matrix}
-\right.
-$$
-
-$$\large f_x(x)\ \ is\ \ given\ \ -1 < x < 2, \ \ Let \ \ Y = X^2, \ \ f_Y(y) = ?$$
-
-$$
-\large f_Y(y) = \left\{
-\begin{matrix}
-\frac{1}{2\sqrt{y}} [f_X(\sqrt{y}) + f_X(-\sqrt{y})] & \text{if} \ 0 < y < 1 \\
-\frac{1}{2\sqrt{y}} f_X(\sqrt{y}) & \text{if} \ 1 < y < 4
-\end{matrix}
-\right.
-$$
 
 ## Moment-Generating Functions
 $$\large \mu_r' = E(X^r) = \left\{
