@@ -109,10 +109,12 @@ $$\Large g(y)=f[w(y)]$$
 $$\Large g(y_1,y_2) = f[w_1(y_1, y_2), w_2(y_1, y_2)]$$
 
 ### Example:
-$$\Large X_1\sim Poisson(\mu_1), \ \ X_2 \sim Poisson(\mu_2), \ \ X_1 & X_2 \ \ are \ \ independent$$
+$$\Large X_1\sim Poisson(\mu_1), \ \ X_2 \sim Poisson(\mu_2), \ \ X_1 \& X_2 \ \ are \ \ independent$$
+
 $$\Large  Find\ \ the\ \ distribution \rightarrow \ \ Y_1 = X_1 + X2$$
 #### Use Transformations of Variables
 $$\Large f(x_1,x_2) = f(x_1)f(x_2) = \frac{e^{-\mu_1}\mu_1^{x_1}}{x_1!}\frac{e^{-\mu_2}\mu_2^{x_2}}{x_2!}$$
+
 $$\Large Set \ \ Y_2 = X_2 \rightarrow \begin{Bmatrix}
 x_1 = y_1 - y_2\\ 
 x_2=y_2 \ \ \ \ \ \ \ \ 
