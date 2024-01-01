@@ -172,7 +172,10 @@ $$\large 2.\rightarrow (0 < x < 1) ,\ \ f_Y(y) = f_X(\sqrt{y})|(\sqrt{y})'|\ \ \
 $$\large f_Y(y) = \frac{1}{2\sqrt{y}} [f_X(\sqrt{y}) + f_X(-\sqrt{y})]$$
 
 #### Extension
-![image](https://hackmd.io/_uploads/rk8KAAyup.png)
+<div style="text-align:center;">
+    <img src="https://hackmd.io/_uploads/rk8KAAyup.png" alt="image" />
+</div>
+
 
 $$\large f_x(x)\ \ is\ \ given\ \ -1 < x < 2, \ \ Let \ \ Y = X^2, \ \ f_Y(y) = ?$$
 
