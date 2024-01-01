@@ -65,3 +65,17 @@ $$\Large \mu = \frac{\alpha}{\alpha+\beta}, \ \ \sigma^2 = \frac{\alpha\beta}{(\
 $$\Large f(x) = \frac{1}{\sqrt{2 \pi}\sigma x}e^{-\frac{(ln(x)-\mu)^2}{2\sigma^2}}, -\infty \leq x \leq \infty$$
 $$\Large \mu = e^{\mu + \frac{\sigma^2}{2}}, \ \ \sigma^2 = e^{2\mu + \sigma^2}(e^{\sigma^2} - 1)$$
 
+### Weibull Distribution
+$$\Large f(x) = \alpha \beta x^{\beta - 1}e^{-\alpha x^\beta}$$
+
+$$\Large \mu = \alpha^{-\frac{1}{\beta}}\Gamma(1+\frac{1}{\beta}), \ \ \sigma^2 =  \alpha^{-\frac{2}{\beta}}\{\Gamma(1+\frac{2}{\beta}) - [ \Gamma(1+\frac{1}{\beta})]^2\}$$
+
+### Failure Rate for the Weibull Distribution
+$$\Large R(t) = P(T>t) = \int_{t}^{\infty}f(t)dt = 1 - F(t)$$
+$$\Large r(t) = \frac{f_T(t)}{1-F_t(t)} = \frac{f_T(t)}{R(t)}$$
+$$\Large F_t(t) = 1 - e^{-\int_{0}^{t}r(\tau)d\tau}$$
+
+$$\Large T \sim exp(\lambda)$$
+$$\Large f_t(t) = \lambda e^{-\lambda t} , \ \ t>0$$
+$$\Large R(t) =\int_{t}^{\infty}\lambda e^{-\lambda t}dt = e^{-\lambda t} $$
+$$\Large r(t) = \frac{\lambda e^{-\lambda t}}{ e^{-\lambda t}} = \lambda$$
