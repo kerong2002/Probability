@@ -198,3 +198,61 @@ $$\large \mu_r' = E(X^r) = \left\{
 \end{matrix}
 \right.
 $$
+
+$$\large \mu = \mu_1' , \ \ \sigma^2 = \mu_2' - \mu^2$$
+
+$$\large M_X(t) = E(e^{tX}) = \left\{
+\begin{matrix}
+\sum_{x} e^{tx} f(x) \ \ \ \ & \text{if} \ X \ is\ discrete  \\
+\int_{-\infty}^{\infty} e^{tx} f(x)dx  & \text{if}\ X \ is\ continuous
+\end{matrix}
+\right.
+$$
+
+$$\large \frac{d^rM_X(t)}{dt^r}\Bigg|_{t=0} = \mu_r'$$
+
+$$\Large M_{X+a}(t) = e^{at}M_X(t)$$
+
+$$\Large proof: \ \ M_{X+a}(t) = E[e^{t(x+a)}]=e^{at}E(e^{tx})$$
+$$\Large M_{aX}(t) = M_X(at)$$
+
+$$\Large proof: \ \ M_{aX}(t) = E[e^{t(ax)}]=E[e^{(at)x}]$$
+$$\Large If \ \ X_1, X_2, ..., X_n\ \  are \ \ independent,\ \  Y = X_1 + X_2 + ...+X_n$$
+
+$$\Large M_Y(t) = M_{X1}(t)M_{X2}(t)...M_{Xn}(t)$$
+
+### Maclaurin series
+$$\Large M_X(t) =E(e^{tx}) = \int_{-\infty}^{\infty}e^{tx}f(x)dx$$
+
+$$\Large e^{tx} = 1 + tx + \frac{(tx)^2}{2!} + \frac{(tx)^3}{3!} + ... $$
+
+$$\Large M_X(t) = E{1 + tx + \frac{(tx)^2}{2!} + \frac{(tx)^3}{3!} + ... }$$
+
+$$\Large = 1 + tE(x) +  \frac{t^2 E(x^2)}{2!} + \frac{t^3 E(x^3)}{3!} + ... $$
+
+$$\Large M_X(t) = 1 + \mu_1 t + \frac{1}{2!} \mu_2 t^2 + \frac{1}{3!} \mu_3 t^3 + ...$$
+
+### Binominal Distribution
+$$\large M_X(t) = (e^tp+q)^n $$
+
+### Gaussian Distribution
+$$\large M_X(t) = e^{\mu t + \frac{1}{2}\sigma^2t^2} $$
+
+### Poisson Distribution
+$$\large M_X(t) = e^{\mu (e^t-1)}$$
+
+### Chi-square Distribution
+$$\large M_X(t) = (1-2t)^{-\frac{v}{2}}$$
+
+### Geometric Distribution
+$$\large M_X(t) = \frac{pe^t}{1-e^tq}$$
+
+### Gamma Distribution
+$$\large M_X(t) = (\frac{1}{1-\beta t})^\alpha$$
+
+### Lognormal Distribution
+$$\large E(X^t) = e^{\mu t + \frac{1}{2}\sigma^2t^2} $$
+
+$$\large E(X) = e^{\mu + \frac{1}{2}\sigma^2} , \ \ E(x^2) = e^{2\mu + 2\sigma^2} $$
+
+$$\large Var(x) = e^{2\mu + 2\sigma^2} - e^{2\mu + \sigma^2} =   e^{2\mu + \sigma^2}(e^{\sigma^2} - 1) $$
